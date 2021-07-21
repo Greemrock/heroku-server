@@ -6,7 +6,7 @@ export const collectionCards: Word[] = [
     translation: 'плакать',
     image: '/assets/images/cry.jpg',
     audioSrc: '/assets/audio/cry.mp3',
-    categoryId: 1,
+    categoryId: 0,
     id: 1,
   },
   {
@@ -14,7 +14,7 @@ export const collectionCards: Word[] = [
     translation: 'танцевать',
     image: '/assets/images/dance.jpg',
     audioSrc: '/assets/audio/dance.mp3',
-    categoryId: 1,
+    categoryId: 0,
     id: 2,
   },
   {
@@ -22,7 +22,7 @@ export const collectionCards: Word[] = [
     translation: 'нырять',
     image: '/assets/images/dive.jpg',
     audioSrc: '/assets/audio/dive.mp3',
-    categoryId: 1,
+    categoryId: 0,
     id: 3,
   },
   {
@@ -30,7 +30,7 @@ export const collectionCards: Word[] = [
     translation: 'рисовать',
     image: '/assets/images/draw.jpg',
     audioSrc: '/assets/audio/draw.mp3',
-    categoryId: 1,
+    categoryId: 0,
     id: 4,
   },
   {
@@ -38,7 +38,7 @@ export const collectionCards: Word[] = [
     translation: 'ловить рыбу',
     image: '/assets/images/fish.jpg',
     audioSrc: '/assets/audio/fish.mp3',
-    categoryId: 1,
+    categoryId: 0,
     id: 5,
   },
   {
@@ -46,7 +46,7 @@ export const collectionCards: Word[] = [
     translation: 'летать',
     image: '/assets/images/fly.jpg',
     audioSrc: '/assets/audio/fly.mp3',
-    categoryId: 1,
+    categoryId: 0,
     id: 6,
   },
   {
@@ -54,7 +54,7 @@ export const collectionCards: Word[] = [
     translation: 'обнимать',
     image: '/assets/images/hug.jpg',
     audioSrc: '/assets/audio/hug.mp3',
-    categoryId: 1,
+    categoryId: 0,
     id: 7,
   },
   {
@@ -62,7 +62,7 @@ export const collectionCards: Word[] = [
     translation: 'прыгать',
     image: '/assets/images/jump.jpg',
     audioSrc: '/assets/audio/jump.mp3',
-    categoryId: 1,
+    categoryId: 0,
     id: 8,
   },
 
@@ -71,7 +71,7 @@ export const collectionCards: Word[] = [
     translation: 'открывать',
     image: '/assets/images/open.jpg',
     audioSrc: '/assets/audio/open.mp3',
-    categoryId: 2,
+    categoryId: 1,
     id: 9,
   },
   {
@@ -79,7 +79,7 @@ export const collectionCards: Word[] = [
     translation: 'играть',
     image: '/assets/images/play.jpg',
     audioSrc: '/assets/audio/play.mp3',
-    categoryId: 2,
+    categoryId: 1,
     id: 10,
   },
   {
@@ -87,7 +87,7 @@ export const collectionCards: Word[] = [
     translation: 'указывать',
     image: '/assets/images/point.jpg',
     audioSrc: '/assets/audio/point.mp3',
-    categoryId: 2,
+    categoryId: 1,
     id: 11,
   },
   {
@@ -95,7 +95,7 @@ export const collectionCards: Word[] = [
     translation: 'ездить',
     image: '/assets/images/ride.jpg',
     audioSrc: '/assets/audio/ride.mp3',
-    categoryId: 2,
+    categoryId: 1,
     id: 12,
   },
   {
@@ -103,7 +103,7 @@ export const collectionCards: Word[] = [
     translation: 'бегать',
     image: '/assets/images/run.jpg',
     audioSrc: '/assets/audio/run.mp3',
-    categoryId: 2,
+    categoryId: 1,
     id: 13,
   },
   {
@@ -111,7 +111,7 @@ export const collectionCards: Word[] = [
     translation: 'петь',
     image: '/assets/images/sing.jpg',
     audioSrc: '/assets/audio/sing.mp3',
-    categoryId: 2,
+    categoryId: 1,
     id: 14,
   },
   {
@@ -119,7 +119,7 @@ export const collectionCards: Word[] = [
     translation: 'прыгать',
     image: '/assets/images/skip.jpg',
     audioSrc: '/assets/audio/skip.mp3',
-    categoryId: 2,
+    categoryId: 1,
     id: 15,
   },
   {
@@ -127,7 +127,7 @@ export const collectionCards: Word[] = [
     translation: 'плавать',
     image: '/assets/images/swim.jpg',
     audioSrc: '/assets/audio/swim.mp3',
-    categoryId: 2,
+    categoryId: 1,
     id: 16,
   },
 
@@ -136,7 +136,7 @@ export const collectionCards: Word[] = [
     translation: 'кот',
     image: '/assets/images/cat.jpg',
     audioSrc: '/assets/audio/cat.mp3',
-    categoryId: 3,
+    categoryId: 2,
     id: 17,
   },
   {
@@ -144,7 +144,7 @@ export const collectionCards: Word[] = [
     translation: 'цыплёнок',
     image: '/assets/images/chick.jpg',
     audioSrc: '/assets/audio/chick.mp3',
-    categoryId: 3,
+    categoryId: 2,
     id: 18,
   },
   {
@@ -152,7 +152,7 @@ export const collectionCards: Word[] = [
     translation: 'курица',
     image: '/assets/images/chicken.jpg',
     audioSrc: '/assets/audio/chicken.mp3',
-    categoryId: 3,
+    categoryId: 2,
     id: 19,
   },
   {
@@ -161,7 +161,7 @@ export const collectionCards: Word[] = [
     image: '/assets/images/dog.jpg',
     audioSrc: '/assets/audio/dog.mp3',
 
-    categoryId: 3,
+    categoryId: 2,
     id: 20,
   },
   {
@@ -169,7 +169,7 @@ export const collectionCards: Word[] = [
     translation: 'лошадь',
     image: '/assets/images/horse.jpg',
     audioSrc: '/assets/audio/horse.mp3',
-    categoryId: 3,
+    categoryId: 2,
     id: 21,
   },
   {
@@ -177,7 +177,7 @@ export const collectionCards: Word[] = [
     translation: 'свинья',
     image: '/assets/images/pig.jpg',
     audioSrc: '/assets/audio/pig.mp3',
-    categoryId: 3,
+    categoryId: 2,
     id: 22,
   },
   {
@@ -186,7 +186,7 @@ export const collectionCards: Word[] = [
     image: '/assets/images/rabbit.jpg',
     audioSrc: '/assets/audio/rabbit.mp3',
 
-    categoryId: 3,
+    categoryId: 2,
     id: 23,
   },
   {
@@ -194,7 +194,7 @@ export const collectionCards: Word[] = [
     translation: 'овца',
     image: '/assets/images/sheep.jpg',
     audioSrc: '/assets/audio/sheep.mp3',
-    categoryId: 3,
+    categoryId: 2,
     id: 24,
   },
 
@@ -203,7 +203,7 @@ export const collectionCards: Word[] = [
     translation: 'птица',
     image: '/assets/images/bird.jpg',
     audioSrc: '/assets/audio/bird.mp3',
-    categoryId: 4,
+    categoryId: 3,
     id: 25,
   },
   {
@@ -211,7 +211,7 @@ export const collectionCards: Word[] = [
     translation: 'рыба',
     image: '/assets/images/fish1.jpg',
     audioSrc: '/assets/audio/fish.mp3',
-    categoryId: 4,
+    categoryId: 3,
     id: 26,
   },
   {
@@ -220,7 +220,7 @@ export const collectionCards: Word[] = [
     image: '/assets/images/frog.jpg',
     audioSrc: '/assets/audio/frog.mp3',
 
-    categoryId: 4,
+    categoryId: 3,
     id: 27,
   },
   {
@@ -228,7 +228,7 @@ export const collectionCards: Word[] = [
     translation: 'жирафа',
     image: '/assets/images/giraffe.jpg',
     audioSrc: '/assets/audio/giraffe.mp3',
-    categoryId: 4,
+    categoryId: 3,
     id: 28,
   },
   {
@@ -236,7 +236,7 @@ export const collectionCards: Word[] = [
     translation: 'лев',
     image: '/assets/images/lion.jpg',
     audioSrc: '/assets/audio/lion.mp3',
-    categoryId: 4,
+    categoryId: 3,
     id: 29,
   },
   {
@@ -244,7 +244,7 @@ export const collectionCards: Word[] = [
     translation: 'мышь',
     image: '/assets/images/mouse.jpg',
     audioSrc: '/assets/audio/mouse.mp3',
-    categoryId: 4,
+    categoryId: 3,
     id: 30,
   },
   {
@@ -252,7 +252,7 @@ export const collectionCards: Word[] = [
     translation: 'черепаха',
     image: '/assets/images/turtle.jpg',
     audioSrc: '/assets/audio/turtle.mp3',
-    categoryId: 4,
+    categoryId: 3,
     id: 31,
   },
   {
@@ -260,7 +260,7 @@ export const collectionCards: Word[] = [
     translation: 'дельфин',
     image: '/assets/images/dolphin.jpg',
     audioSrc: '/assets/audio/dolphin.mp3',
-    categoryId: 4,
+    categoryId: 3,
     id: 32,
   },
 
@@ -269,7 +269,7 @@ export const collectionCards: Word[] = [
     translation: 'юбка',
     image: '/assets/images/skirt.jpg',
     audioSrc: '/assets/audio/skirt.mp3',
-    categoryId: 5,
+    categoryId: 4,
     id: 33,
   },
   {
@@ -277,7 +277,7 @@ export const collectionCards: Word[] = [
     translation: 'брюки',
     image: '/assets/images/pants.jpg',
     audioSrc: '/assets/audio/pants.mp3',
-    categoryId: 5,
+    categoryId: 4,
     id: 34,
   },
   {
@@ -285,7 +285,7 @@ export const collectionCards: Word[] = [
     translation: 'блузка',
     image: '/assets/images/blouse.jpg',
     audioSrc: '/assets/audio/blouse.mp3',
-    categoryId: 5,
+    categoryId: 4,
     id: 35,
   },
   {
@@ -293,7 +293,7 @@ export const collectionCards: Word[] = [
     translation: 'платье',
     image: '/assets/images/dress.jpg',
     audioSrc: '/assets/audio/dress.mp3',
-    categoryId: 5,
+    categoryId: 4,
     id: 36,
   },
   {
@@ -301,7 +301,7 @@ export const collectionCards: Word[] = [
     translation: 'ботинок',
     image: '/assets/images/boot.jpg',
     audioSrc: '/assets/audio/boot.mp3',
-    categoryId: 5,
+    categoryId: 4,
     id: 37,
   },
   {
@@ -309,7 +309,7 @@ export const collectionCards: Word[] = [
     translation: 'рубашка',
     image: '/assets/images/shirt.jpg',
     audioSrc: '/assets/audio/shirt.mp3',
-    categoryId: 5,
+    categoryId: 4,
     id: 38,
   },
   {
@@ -317,7 +317,7 @@ export const collectionCards: Word[] = [
     translation: 'пальто',
     image: '/assets/images/coat.jpg',
     audioSrc: '/assets/audio/coat.mp3',
-    categoryId: 5,
+    categoryId: 4,
     id: 39,
   },
   {
@@ -325,7 +325,7 @@ export const collectionCards: Word[] = [
     translation: 'туфли',
     image: '/assets/images/shoe.jpg',
     audioSrc: '/assets/audio/shoe.mp3',
-    categoryId: 5,
+    categoryId: 4,
     id: 40,
   },
 
@@ -334,7 +334,7 @@ export const collectionCards: Word[] = [
     translation: 'грустный',
     image: '/assets/images/sad.jpg',
     audioSrc: '/assets/audio/sad.mp3',
-    categoryId: 6,
+    categoryId: 5,
     id: 41,
   },
   {
@@ -342,7 +342,7 @@ export const collectionCards: Word[] = [
     translation: 'сердитый',
     image: '/assets/images/angry.jpg',
     audioSrc: '/assets/audio/angry.mp3',
-    categoryId: 6,
+    categoryId: 5,
     id: 42,
   },
   {
@@ -351,7 +351,7 @@ export const collectionCards: Word[] = [
     image: '/assets/images/happy.jpg',
     audioSrc: '/assets/audio/happy.mp3',
 
-    categoryId: 6,
+    categoryId: 5,
     id: 43,
   },
   {
@@ -359,7 +359,7 @@ export const collectionCards: Word[] = [
     translation: 'уставший',
     image: '/assets/images/tired.jpg',
     audioSrc: '/assets/audio/tired.mp3',
-    categoryId: 6,
+    categoryId: 5,
     id: 44,
   },
   {
@@ -367,7 +367,7 @@ export const collectionCards: Word[] = [
     translation: 'удивлённый',
     image: '/assets/images/surprised.jpg',
     audioSrc: '/assets/audio/surprised.mp3',
-    categoryId: 6,
+    categoryId: 5,
     id: 45,
   },
   {
@@ -375,7 +375,7 @@ export const collectionCards: Word[] = [
     translation: 'испуганный',
     image: '/assets/images/scared.jpg',
     audioSrc: '/assets/audio/scared.mp3',
-    categoryId: 6,
+    categoryId: 5,
     id: 46,
   },
   {
@@ -384,7 +384,7 @@ export const collectionCards: Word[] = [
     image: '/assets/images/smile.jpg',
     audioSrc: '/assets/audio/smile.mp3',
 
-    categoryId: 6,
+    categoryId: 5,
     id: 47,
   },
   {
@@ -392,7 +392,7 @@ export const collectionCards: Word[] = [
     translation: 'смех',
     image: '/assets/images/laugh.jpg',
     audioSrc: '/assets/audio/laugh.mp3',
-    categoryId: 6,
+    categoryId: 5,
     id: 48,
   },
 
@@ -401,7 +401,7 @@ export const collectionCards: Word[] = [
     translation: 'глаз',
     image: '/assets/images/eye.jpg',
     audioSrc: '/assets/audio/eye.mp3',
-    categoryId: 7,
+    categoryId: 6,
     id: 49,
   },
   {
@@ -409,7 +409,7 @@ export const collectionCards: Word[] = [
     translation: 'рука',
     image: '/assets/images/hand.jpg',
     audioSrc: '/assets/audio/hand.mp3',
-    categoryId: 7,
+    categoryId: 6,
     id: 50,
   },
   {
@@ -417,7 +417,7 @@ export const collectionCards: Word[] = [
     translation: 'голова',
     image: '/assets/images/head.jpg',
     audioSrc: '/assets/audio/head.mp3',
-    categoryId: 7,
+    categoryId: 6,
     id: 51,
   },
   {
@@ -425,7 +425,7 @@ export const collectionCards: Word[] = [
     translation: 'колено',
     image: '/assets/images/knee.jpg',
     audioSrc: '/assets/audio/knee.mp3',
-    categoryId: 7,
+    categoryId: 6,
     id: 52,
   },
   {
@@ -433,7 +433,7 @@ export const collectionCards: Word[] = [
     translation: 'нога',
     image: '/assets/images/leg.jpg',
     audioSrc: '/assets/audio/leg.mp3',
-    categoryId: 7,
+    categoryId: 6,
     id: 53,
   },
   {
@@ -441,7 +441,7 @@ export const collectionCards: Word[] = [
     translation: 'нос',
     image: '/assets/images/nose.jpg',
     audioSrc: '/assets/audio/nose.mp3',
-    categoryId: 7,
+    categoryId: 6,
     id: 54,
   },
   {
@@ -449,7 +449,7 @@ export const collectionCards: Word[] = [
     translation: 'плечо',
     image: '/assets/images/shoulder.jpg',
     audioSrc: '/assets/audio/shoulder.mp3',
-    categoryId: 7,
+    categoryId: 6,
     id: 55,
   },
   {
@@ -457,7 +457,7 @@ export const collectionCards: Word[] = [
     translation: 'зубы',
     image: '/assets/images/teeth.jpg',
     audioSrc: '/assets/audio/teeth.mp3',
-    categoryId: 7,
+    categoryId: 6,
     id: 56,
   },
 
@@ -466,7 +466,7 @@ export const collectionCards: Word[] = [
     translation: 'капуста',
     image: '/assets/images/cabbage.jpg',
     audioSrc: '/assets/audio/cabbage.mp3',
-    categoryId: 8,
+    categoryId: 7,
     id: 57,
   },
   {
@@ -474,7 +474,7 @@ export const collectionCards: Word[] = [
     translation: 'морковка',
     image: '/assets/images/carrot.jpg',
     audioSrc: '/assets/audio/carrot.mp3',
-    categoryId: 8,
+    categoryId: 7,
     id: 58,
   },
   {
@@ -482,7 +482,7 @@ export const collectionCards: Word[] = [
     translation: 'огурец',
     image: '/assets/images/cucumber.jpg',
     audioSrc: '/assets/audio/cucumber.mp3',
-    categoryId: 8,
+    categoryId: 7,
     id: 59,
   },
   {
@@ -490,7 +490,7 @@ export const collectionCards: Word[] = [
     translation: 'баклажан',
     image: '/assets/images/eggplant.jpg',
     audioSrc: '/assets/audio/eggplant.mp3',
-    categoryId: 8,
+    categoryId: 7,
     id: 60,
   },
   {
@@ -498,7 +498,7 @@ export const collectionCards: Word[] = [
     translation: 'лук',
     image: '/assets/images/onion.jpg',
     audioSrc: '/assets/audio/onion.mp3',
-    categoryId: 8,
+    categoryId: 7,
     id: 61,
   },
   {
@@ -506,7 +506,7 @@ export const collectionCards: Word[] = [
     translation: 'перец',
     image: '/assets/images/pepper.jpg',
     audioSrc: '/assets/audio/pepper.mp3',
-    categoryId: 8,
+    categoryId: 7,
     id: 62,
   },
   {
@@ -514,7 +514,7 @@ export const collectionCards: Word[] = [
     translation: 'тыква',
     image: '/assets/images/pumpkin.jpg',
     audioSrc: '/assets/audio/pumpkin.mp3',
-    categoryId: 8,
+    categoryId: 7,
     id: 63,
   },
   {
@@ -522,7 +522,7 @@ export const collectionCards: Word[] = [
     translation: 'помидор',
     image: '/assets/images/tomato.jpg',
     audioSrc: '/assets/audio/tomato.mp3',
-    categoryId: 8,
+    categoryId: 7,
     id: 64,
   },
 ];

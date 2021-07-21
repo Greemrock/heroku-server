@@ -2,42 +2,42 @@ import { Category } from './category';
 
 export const categoriesStore: Category[] = [
   {
-    id: 1,
+    id: 0,
     name: 'Action setA',
     iconSrc: '/assets/images/cry.jpg',
   },
   {
-    id: 2,
+    id: 1,
     name: 'Action setB',
     iconSrc: '/assets/images/open.jpg',
   },
   {
-    id: 3,
+    id: 2,
     name: 'Animal setA',
     iconSrc: '/assets/images/cat.jpg',
   },
   {
-    id: 4,
+    id: 3,
     name: 'Animal setB',
     iconSrc: '/assets/images/bird.jpg',
   },
   {
-    id: 5,
+    id: 4,
     name: 'Clothes',
     iconSrc: '/assets/images/skirt.jpg',
   },
   {
-    id: 6,
+    id: 5,
     name: 'Emotions',
     iconSrc: '/assets/images/sad.jpg',
   },
   {
-    id: 7,
+    id: 6,
     name: 'Body Parts',
     iconSrc: '/assets/images/eye.jpg',
   },
   {
-    id: 8,
+    id: 7,
     name: 'Vegetable',
     iconSrc: '/assets/images/cabbage.jpg',
   },
@@ -63,7 +63,8 @@ export function createCategory(category: { name: string }): Promise<Category> {
     );
   }
 
-  const id = categoriesStore.length + 1;
+  const lastId = categoriesStore.length - 1;
+  const id = categoriesStore[lastId].id + 1;
   const iconSrc = '';
   const model = { ...category, id, iconSrc };
   categoriesStore.push(model);
