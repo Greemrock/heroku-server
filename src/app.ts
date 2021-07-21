@@ -11,7 +11,9 @@ const port = process.env.PORT || 8080;
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cors());
-
+app.get('/', (req, res) => {
+  res.end(`<div><h1>Home Page</h1></div>`)
+})
 app.use('/api/categories', categories);
 app.use('/api/words', words);
 
